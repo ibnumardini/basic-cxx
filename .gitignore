@@ -1,0 +1,11 @@
+# ignore all files and directories
+*
+
+# include directories
+!*/
+
+# include files with extensions
+!*.*
+
+# exclude specific directories
+.vscode/
