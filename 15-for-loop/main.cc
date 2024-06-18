@@ -30,7 +30,7 @@ int main()
     int total = 0;
     for (int l = 0; l <= 10; /*total += l,*/ l++)
     {
-        total += l; // variasi dari total sum, bisa di tambahkan di dalam blok for (total += l,)
+        total += l; // variasi dari total sum, bisa di tambahkan di dalam blok for (total += l,) namanya adalah compound
         cout << l << endl;
     }
     cout << "\nhasil hasil " << total << endl;
